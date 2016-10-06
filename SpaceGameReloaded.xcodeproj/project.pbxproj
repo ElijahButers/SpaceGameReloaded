@@ -29,8 +29,8 @@
 		E2F0F7371DA6676400731D5D /* torpedo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F7291DA6676400731D5D /* torpedo@3x.png */; };
 		E2F0F7381DA6676400731D5D /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F72A1DA6676400731D5D /* Starfield.sks */; };
 		E2F0F7391DA6676400731D5D /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F72B1DA6676400731D5D /* torpedo.mp3 */; };
-		E2F0F73C1DA66A3800731D5D /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F73A1DA66A3800731D5D /* MyParticle.sks */; };
 		E2F0F73D1DA66A3800731D5D /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F73B1DA66A3800731D5D /* spark.png */; };
+		E2F0F73F1DA66B1D00731D5D /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F73E1DA66B1D00731D5D /* Explosion.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,8 +58,8 @@
 		E2F0F7291DA6676400731D5D /* torpedo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torpedo@3x.png"; sourceTree = "<group>"; };
 		E2F0F72A1DA6676400731D5D /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
 		E2F0F72B1DA6676400731D5D /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
-		E2F0F73A1DA66A3800731D5D /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
-		E2F0F73B1DA66A3800731D5D /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		E2F0F73B1DA66A3800731D5D /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = ../spark.png; sourceTree = "<group>"; };
+		E2F0F73E1DA66B1D00731D5D /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,6 @@
 		E2F0F6F81DA6642500731D5D = {
 			isa = PBXGroup;
 			children = (
-				E2F0F73A1DA66A3800731D5D /* MyParticle.sks */,
-				E2F0F73B1DA66A3800731D5D /* spark.png */,
 				E2F0F7031DA6642500731D5D /* SpaceGameReloaded */,
 				E2F0F7021DA6642500731D5D /* Products */,
 			);
@@ -97,6 +95,8 @@
 				E2F0F7041DA6642500731D5D /* AppDelegate.swift */,
 				E2F0F7061DA6642500731D5D /* GameScene.sks */,
 				E2F0F7081DA6642600731D5D /* Actions.sks */,
+				E2F0F73E1DA66B1D00731D5D /* Explosion.sks */,
+				E2F0F73B1DA66A3800731D5D /* spark.png */,
 				E2F0F70A1DA6642600731D5D /* GameScene.swift */,
 				E2F0F70C1DA6642600731D5D /* GameViewController.swift */,
 				E2F0F70E1DA6642600731D5D /* Main.storyboard */,
@@ -201,6 +201,7 @@
 				E2F0F72C1DA6676400731D5D /* explosion.mp3 in Resources */,
 				E2F0F7101DA6642600731D5D /* Main.storyboard in Resources */,
 				E2F0F7371DA6676400731D5D /* torpedo@3x.png in Resources */,
+				E2F0F73F1DA66B1D00731D5D /* Explosion.sks in Resources */,
 				E2F0F7391DA6676400731D5D /* torpedo.mp3 in Resources */,
 				E2F0F7071DA6642500731D5D /* GameScene.sks in Resources */,
 				E2F0F7381DA6676400731D5D /* Starfield.sks in Resources */,
@@ -216,7 +217,6 @@
 				E2F0F72D1DA6676400731D5D /* Explosion.sks in Resources */,
 				E2F0F7091DA6642600731D5D /* Actions.sks in Resources */,
 				E2F0F7311DA6676400731D5D /* alien3@3x.png in Resources */,
-				E2F0F73C1DA66A3800731D5D /* MyParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
