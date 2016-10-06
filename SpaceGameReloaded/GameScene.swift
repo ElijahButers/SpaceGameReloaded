@@ -35,6 +35,15 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         self.physicsWorld.gravity = CGVector(dx: 0, dy: 0)
         self.physicsWorld.contactDelegate = self
+        
+        scoreLabel = SKLabelNode(text: "Score: 0")
+        scoreLabel.position = CGPoint(x: 100, y: self.frame.height - 60)
+        scoreLabel.fontName = "AmericanTypewriter-Bold"
+        scoreLabel.fontSize = 36
+        scoreLabel.fontColor = UIColor.white
+        score = 0
+        
+        self.addChild(scoreLabel)
     }
     
     override func update(_ currentTime: TimeInterval) {
