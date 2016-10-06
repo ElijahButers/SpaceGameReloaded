@@ -22,6 +22,10 @@ class GameScene: SKScene {
         self.addChild(starfield)
         
         starfield.zPosition = -1
+        
+        player = SKSpriteNode(imageNamed: "shuttle")
+        player.position = CGPoint(x: self.frame.size.width / 2, y: player.size.height / 2 + 20)
+        self.addChild(player)
     }
     
     override func update(_ currentTime: TimeInterval) {
