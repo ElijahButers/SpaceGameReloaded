@@ -15,6 +15,20 @@
 		E2F0F7101DA6642600731D5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F70E1DA6642600731D5D /* Main.storyboard */; };
 		E2F0F7121DA6642600731D5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F7111DA6642600731D5D /* Assets.xcassets */; };
 		E2F0F7151DA6642600731D5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F7131DA6642600731D5D /* LaunchScreen.storyboard */; };
+		E2F0F72C1DA6676400731D5D /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F71D1DA6676400731D5D /* explosion.mp3 */; };
+		E2F0F72D1DA6676400731D5D /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F71E1DA6676400731D5D /* Explosion.sks */; };
+		E2F0F72E1DA6676400731D5D /* alien2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F7201DA6676400731D5D /* alien2@2x.png */; };
+		E2F0F72F1DA6676400731D5D /* alien2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F7211DA6676400731D5D /* alien2@3x.png */; };
+		E2F0F7301DA6676400731D5D /* alien3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F7221DA6676400731D5D /* alien3@2x.png */; };
+		E2F0F7311DA6676400731D5D /* alien3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F7231DA6676400731D5D /* alien3@3x.png */; };
+		E2F0F7321DA6676400731D5D /* alien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F7241DA6676400731D5D /* alien@2x.png */; };
+		E2F0F7331DA6676400731D5D /* alien@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F7251DA6676400731D5D /* alien@3x.png */; };
+		E2F0F7341DA6676400731D5D /* shuttle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F7261DA6676400731D5D /* shuttle@2x.png */; };
+		E2F0F7351DA6676400731D5D /* shuttle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F7271DA6676400731D5D /* shuttle@3x.png */; };
+		E2F0F7361DA6676400731D5D /* torpedo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F7281DA6676400731D5D /* torpedo@2x.png */; };
+		E2F0F7371DA6676400731D5D /* torpedo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F7291DA6676400731D5D /* torpedo@3x.png */; };
+		E2F0F7381DA6676400731D5D /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F72A1DA6676400731D5D /* Starfield.sks */; };
+		E2F0F7391DA6676400731D5D /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2F0F72B1DA6676400731D5D /* torpedo.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +42,20 @@
 		E2F0F7111DA6642600731D5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2F0F7141DA6642600731D5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2F0F7161DA6642600731D5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F0F71D1DA6676400731D5D /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		E2F0F71E1DA6676400731D5D /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		E2F0F7201DA6676400731D5D /* alien2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien2@2x.png"; sourceTree = "<group>"; };
+		E2F0F7211DA6676400731D5D /* alien2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien2@3x.png"; sourceTree = "<group>"; };
+		E2F0F7221DA6676400731D5D /* alien3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien3@2x.png"; sourceTree = "<group>"; };
+		E2F0F7231DA6676400731D5D /* alien3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien3@3x.png"; sourceTree = "<group>"; };
+		E2F0F7241DA6676400731D5D /* alien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien@2x.png"; sourceTree = "<group>"; };
+		E2F0F7251DA6676400731D5D /* alien@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien@3x.png"; sourceTree = "<group>"; };
+		E2F0F7261DA6676400731D5D /* shuttle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shuttle@2x.png"; sourceTree = "<group>"; };
+		E2F0F7271DA6676400731D5D /* shuttle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shuttle@3x.png"; sourceTree = "<group>"; };
+		E2F0F7281DA6676400731D5D /* torpedo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torpedo@2x.png"; sourceTree = "<group>"; };
+		E2F0F7291DA6676400731D5D /* torpedo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torpedo@3x.png"; sourceTree = "<group>"; };
+		E2F0F72A1DA6676400731D5D /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		E2F0F72B1DA6676400731D5D /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +94,41 @@
 				E2F0F70A1DA6642600731D5D /* GameScene.swift */,
 				E2F0F70C1DA6642600731D5D /* GameViewController.swift */,
 				E2F0F70E1DA6642600731D5D /* Main.storyboard */,
+				E2F0F71C1DA6676400731D5D /* Assets */,
 				E2F0F7111DA6642600731D5D /* Assets.xcassets */,
 				E2F0F7131DA6642600731D5D /* LaunchScreen.storyboard */,
 				E2F0F7161DA6642600731D5D /* Info.plist */,
 			);
 			path = SpaceGameReloaded;
+			sourceTree = "<group>";
+		};
+		E2F0F71C1DA6676400731D5D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E2F0F71D1DA6676400731D5D /* explosion.mp3 */,
+				E2F0F71E1DA6676400731D5D /* Explosion.sks */,
+				E2F0F71F1DA6676400731D5D /* Images */,
+				E2F0F72A1DA6676400731D5D /* Starfield.sks */,
+				E2F0F72B1DA6676400731D5D /* torpedo.mp3 */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E2F0F71F1DA6676400731D5D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E2F0F7201DA6676400731D5D /* alien2@2x.png */,
+				E2F0F7211DA6676400731D5D /* alien2@3x.png */,
+				E2F0F7221DA6676400731D5D /* alien3@2x.png */,
+				E2F0F7231DA6676400731D5D /* alien3@3x.png */,
+				E2F0F7241DA6676400731D5D /* alien@2x.png */,
+				E2F0F7251DA6676400731D5D /* alien@3x.png */,
+				E2F0F7261DA6676400731D5D /* shuttle@2x.png */,
+				E2F0F7271DA6676400731D5D /* shuttle@3x.png */,
+				E2F0F7281DA6676400731D5D /* torpedo@2x.png */,
+				E2F0F7291DA6676400731D5D /* torpedo@3x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,11 +190,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F0F7331DA6676400731D5D /* alien@3x.png in Resources */,
+				E2F0F7351DA6676400731D5D /* shuttle@3x.png in Resources */,
+				E2F0F72C1DA6676400731D5D /* explosion.mp3 in Resources */,
 				E2F0F7101DA6642600731D5D /* Main.storyboard in Resources */,
+				E2F0F7371DA6676400731D5D /* torpedo@3x.png in Resources */,
+				E2F0F7391DA6676400731D5D /* torpedo.mp3 in Resources */,
 				E2F0F7071DA6642500731D5D /* GameScene.sks in Resources */,
+				E2F0F7381DA6676400731D5D /* Starfield.sks in Resources */,
 				E2F0F7121DA6642600731D5D /* Assets.xcassets in Resources */,
+				E2F0F72F1DA6676400731D5D /* alien2@3x.png in Resources */,
+				E2F0F7341DA6676400731D5D /* shuttle@2x.png in Resources */,
+				E2F0F7361DA6676400731D5D /* torpedo@2x.png in Resources */,
 				E2F0F7151DA6642600731D5D /* LaunchScreen.storyboard in Resources */,
+				E2F0F7321DA6676400731D5D /* alien@2x.png in Resources */,
+				E2F0F7301DA6676400731D5D /* alien3@2x.png in Resources */,
+				E2F0F72E1DA6676400731D5D /* alien2@2x.png in Resources */,
+				E2F0F72D1DA6676400731D5D /* Explosion.sks in Resources */,
 				E2F0F7091DA6642600731D5D /* Actions.sks in Resources */,
+				E2F0F7311DA6676400731D5D /* alien3@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
