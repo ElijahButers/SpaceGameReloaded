@@ -50,6 +50,16 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         gameTimer = Timer.scheduledTimer(timeInterval: 0.75, target: self, selector: #selector(addAlien), userInfo: nil, repeats: true)
     }
     
+    func addAlien() {
+        
+        possibleAliens = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: possibleAliens) as! [String]
+        
+        let alien = SKSpriteNode(imageNamed: possibleAliens[0])
+        let randomAlienPosition = GKRandomDistribution(lowestValue: 0, highestValue: 414)
+        let position = CGFloat(randomAlienPosition.nextInt())
+        alien.position = CGPoint(x: position, y: self.frame.size.height + alien.size.height)
+    }
+    
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
     }
