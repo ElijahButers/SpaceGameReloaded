@@ -14,6 +14,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var starfield: SKEmitterNode!
     var player: SKSpriteNode!
     var gameTimer: Timer!
+    var possibleAliens = ["alien", "alien2", "alien3"]
     var scoreLabel: SKLabelNode!
     var score: Int = 0 {
         didSet {
