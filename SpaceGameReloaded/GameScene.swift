@@ -13,6 +13,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     var starfield: SKEmitterNode!
     var player: SKSpriteNode!
+    var gameTimer: Timer!
     var scoreLabel: SKLabelNode!
     var score: Int = 0 {
         didSet {
@@ -44,6 +45,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         score = 0
         
         self.addChild(scoreLabel)
+        
+        gameTimer = Timer.scheduledTimer(timeInterval: 0.75, target: self, selector: #selector(addAlien), userInfo: nil, repeats: true)
     }
     
     override func update(_ currentTime: TimeInterval) {
