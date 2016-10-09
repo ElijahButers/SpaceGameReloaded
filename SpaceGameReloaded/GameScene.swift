@@ -15,6 +15,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var player: SKSpriteNode!
     var gameTimer: Timer!
     var possibleAliens = ["alien", "alien2", "alien3"]
+    let alienCategory: UInt32 = 0x1 << 1
+    let photonTorpedoCategory: UInt32 = 0x1 << 0
     var scoreLabel: SKLabelNode!
     var score: Int = 0 {
         didSet {
@@ -58,6 +60,14 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         let randomAlienPosition = GKRandomDistribution(lowestValue: 0, highestValue: 414)
         let position = CGFloat(randomAlienPosition.nextInt())
         alien.position = CGPoint(x: position, y: self.frame.size.height + alien.size.height)
+        
+        alien.physicsBody = SKPhysicsBody(rectangleOf: alien.size)
+        alien.physicsBody?.isDynamic = true
+        alien.physicsBody?.categoryBitMask = alienCategory
+        alien.physicsBody?.contactTestBitMask = photonTorpedoCategory
+        alien.physicsBody?.collisionBitMask = 0
+        
+        self.addChild(alien)
     }
     
     override func update(_ currentTime: TimeInterval) {
