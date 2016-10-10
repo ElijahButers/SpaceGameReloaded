@@ -77,6 +77,17 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         alien.run(SKAction.sequence(actionArray))
     }
     
+    func fireTorpedo() {
+        
+        self.run(SKAction.playSoundFileNamed("torpedo.mp3", waitForCompletion: false))
+        
+        let torpedoNode = SKSpriteNode(imageNamed: "torpedo")
+        torpedoNode.position = player.position
+        torpedoNode.position.y += 5
+        
+        
+    }
+    
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
     }
