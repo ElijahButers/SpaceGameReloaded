@@ -85,6 +85,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         torpedoNode.position = player.position
         torpedoNode.position.y += 5
         
+        torpedoNode.physicsBody = SKPhysicsBody(circleOfRadius: torpedoNode.size.width / 2)
+        torpedoNode.physicsBody?.isDynamic = true
         
     }
     
