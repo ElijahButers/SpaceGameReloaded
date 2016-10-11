@@ -95,6 +95,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         self.addChild(torpedoNode)
         
+        let animationDuration: TimeInterval = 0.3
+        
+        var actionArray = [SKAction]()
+        actionArray.append(SKAction.move(to: CGPoint(x: player.position.x, y: self.frame.size.height + 10), duration: animationDuration))
+        actionArray.append(SKAction.removeFromParent())
+        torpedoNode.run(SKAction.sequence(actionArray))
+        
     }
     
     override func update(_ currentTime: TimeInterval) {
