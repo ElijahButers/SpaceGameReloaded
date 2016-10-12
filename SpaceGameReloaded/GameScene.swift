@@ -18,6 +18,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var possibleAliens = ["alien", "alien2", "alien3"]
     let alienCategory: UInt32 = 0x1 << 1
     let photonTorpedoCategory: UInt32 = 0x1 << 0
+    let motionManager = CMMotionManager()
+    var xAcceleration: CGFloat = 0
     var scoreLabel: SKLabelNode!
     var score: Int = 0 {
         didSet {
